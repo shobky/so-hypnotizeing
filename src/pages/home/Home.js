@@ -58,7 +58,6 @@ const Home = () => {
                 const active = sectionStick.querySelector('.stick.active')
                 active.style.top = (62 + 30) * (qty - 1) + 'px'
             }
-            console.log('SLIDE', qty)
             // Wait for the scrolling to finish to reset the values
             setTimeout(() => {
                 setInitialScroll(window.scrollY)
