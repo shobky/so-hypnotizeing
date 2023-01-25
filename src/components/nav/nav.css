@@ -80,12 +80,14 @@
 
     .nav_button {
         font-size: 13px;
-        
+
     }
 
     .nav_links-section {
         display: flex;
-        gap: 15px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 22px;
     }
 
     .nav_button:active,
