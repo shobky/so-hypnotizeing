@@ -171,7 +171,7 @@ body::-webkit-scrollbar {
         display: flex;
         gap: 5vw;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
 
 
 
@@ -180,9 +180,9 @@ body::-webkit-scrollbar {
     .home-c2-rs {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 5vw;
         flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
     .home-c2-ls_flex-list {
@@ -194,10 +194,11 @@ body::-webkit-scrollbar {
     .layout .s2 {
         background-color: rgba(28, 26, 26, 0.468);
         z-index: 1;
-        overflow-y: hidden;
+        overflow-y: scroll;
         color: white;
-        padding: 25vh 5vw 5vh 5vw;
+        padding: 5vh 5vw 5vh 5vw;
         box-sizing: border-box;
+    
     }
 
 
