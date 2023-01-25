@@ -84,20 +84,7 @@ body::-webkit-scrollbar {
     }
 
 } */
-.layout .s1 {
-    background-color: transparent;
-    transform: translateY(0);
-    z-index: -1;
-    mix-blend-mode: difference;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30vh 6vw 0 6vw;
-    box-sizing: border-box;
 
-
-}
 
 @media (width < 800px) {
     .layout .s1 {
@@ -155,6 +142,20 @@ body::-webkit-scrollbar {
 }
 
 @media (width > 800px) {
+    .layout .s1 {
+        background-color: transparent;
+        transform: translateY(0);
+        z-index: -1;
+        mix-blend-mode: difference;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45vh 6vw 0 6vw;
+        box-sizing: border-box;
+    
+    
+    }
     .home-c2-rs_img {
         width: 30%;
         margin: 25px 0;
@@ -213,7 +214,7 @@ body::-webkit-scrollbar {
         text-align: center;
         margin-top: 3vh;
         font-family: SUISREG;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     
 
