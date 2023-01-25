@@ -9,7 +9,7 @@
     padding: 25px 5vw;
     box-sizing: border-box;
     align-items: center;
-    font-family: SFRREG;
+    font-family: SUISREG;
     mix-blend-mode: difference;
     /* border-bottom: .5px solid rgba(192, 192, 192, 0.345); */
 
@@ -56,7 +56,7 @@
 
     mix-blend-mode: normal;
     /* box-shadow: 0 0 10px 1px rgba(40, 39, 39, 0.664); */
-    border-bottom: .5px solid rgba(192, 192, 192, 0.345);
+    /* border-bottom: .5px solid rgba(192, 192, 192, 0.345); */
     transition: ease-in-out .4s;
 }
 
@@ -86,11 +86,12 @@
         display: flex;
         gap: 15px;
     }
+
     .nav_button:active,
-.nav-link:active {
-    color: yellow;
-    cursor: pointer;
-}
+    .nav-link:active {
+        color: yellow;
+        cursor: pointer;
+    }
 
 
 
