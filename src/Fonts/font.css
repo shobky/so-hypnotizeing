@@ -1,0 +1,22 @@
+@font-face {
+    font-family: CHAMPG;
+    src: url('./ChampionGothic-Middleweight.otf');
+}
+
+@font-face {
+    font-family:    ;
+    src: url('./SFPRODISPLAYMEDIUM.OTF');
+}
+
+@font-face {
+    font-family: SFRREG;
+    src: url('./SFPRODISPLAYREGULAR.OTF');
+}
+@font-face {
+    font-family: SUISREG;
+    src: url('./SuisseIntl-Regular.otf');
+}
+@font-face {
+    font-family: SUISBOLD;
+    src: url('./SuisseIntl-Bold.otf');
+}
