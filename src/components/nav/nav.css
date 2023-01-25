@@ -67,7 +67,6 @@
         align-items: center;
         justify-content: space-between;
         width: 30%;
-        gap: 1px;
     }
 
     .nav-link {
@@ -87,6 +86,12 @@
         display: flex;
         gap: 15px;
     }
+    .nav_button:active,
+.nav-link:active {
+    color: yellow;
+    cursor: pointer;
+}
+
 
 
 }

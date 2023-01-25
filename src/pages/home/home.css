@@ -109,7 +109,7 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 10vh 5vw 0 5vw;
+        padding: 20vh 5vw 0 5vw;
         box-sizing: border-box;
         background-color: black;
 
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
         z-index: 1;
         overflow-y: scroll;
         color: white;
-        padding: 25vh 5vw 5vh 5vw;
+        padding: 15vh 5vw 5vh 5vw;
         box-sizing: border-box;
     }
 
