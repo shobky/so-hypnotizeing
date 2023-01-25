@@ -143,6 +143,14 @@ body::-webkit-scrollbar {
         padding: 10vh 5vw 5vh 5vw;
         box-sizing: border-box;
     }
+    .home_foot-txt {
+        color: white;
+        text-align: center;
+        margin-top: 3vh;
+        font-family: SUISREG;
+        font-size: 1.2rem;
+    }
+    
 
 }
 
@@ -200,6 +208,14 @@ body::-webkit-scrollbar {
         box-sizing: border-box;
     
     }
+    .home_foot-txt {
+        color: white;
+        text-align: center;
+        margin-top: 3vh;
+        font-family: SUISREG;
+        font-size: 1.7rem;
+    }
+    
 
 
 }
@@ -214,13 +230,6 @@ body::-webkit-scrollbar {
     height: fit-content;
 }
 
-.home_foot-txt {
-    color: white;
-    text-align: center;
-    margin-top: 3vh;
-    font-family: SUISREG;
-    font-size: 1.5rem;
-}
 
 
 .home-c2-rs_article_header {
