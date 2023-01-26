@@ -31,6 +31,8 @@
     text-decoration: underline;
     display: flex;
     align-items: center;
+    font-size: 17.5px;
+    font-family: SUISREG;
 }
 
 .nav_button:hover,
@@ -46,11 +48,11 @@
 
 .nav-link {
     color: white;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .nav-mb__active {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     padding: 15px 5vw 15px 5vw;
 
@@ -64,7 +66,8 @@
     .nav_right-side {
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: baseline;
+        gap: 5px;
         justify-content: space-between;
         width: 30%;
     }
@@ -75,7 +78,7 @@
     }
 
     .nav_logo {
-        width: 160px;
+        width: 180px;
     }
 
     .nav_button {
@@ -86,8 +89,8 @@
     .nav_links-section {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 22px;
+        justify-content: center;
+        gap: 20px;
     }
 
     .nav_button:active,

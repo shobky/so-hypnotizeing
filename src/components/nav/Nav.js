@@ -18,7 +18,7 @@ const Nav = () => {
                     <a className="nav-link" href="#j"><AiOutlineInstagram className="nav-link_ico" /></a>
                     <a className="nav-link" href="#j"><RiLinkedinLine className="nav-link_ico" /></a>
                 </div>
-                <Link className="nav_button" to='/form'>
+                <Link className="nav_button" to='/contact'>
                     Get in touch <RxArrowTopRight /></Link>
             </div>
         </div>
