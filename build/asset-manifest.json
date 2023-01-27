@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4df0b90.css",
+    "main.js": "/static/js/main.ef1c3193.js",
+    "static/media/8f70714b.mp4": "/static/media/8f70714b.0cc0d083a3551bd0fc91.mp4",
+    "static/media/SFPRODISPLAYMEDIUM.OTF": "/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/SuisseIntl-Bold.otf": "/static/media/SuisseIntl-Bold.24fe64545382e1378933.otf",
+    "static/media/SuisseIntl-Regular.otf": "/static/media/SuisseIntl-Regular.b248914e0a53493d03f0.otf",
+    "static/media/3WAYS.png": "/static/media/3WAYS.d901a5ffe4dedfac54c5.png",
+    "static/media/ChampionGothic-Middleweight.otf": "/static/media/ChampionGothic-Middleweight.db54f50c783c17d6aa7f.otf",
+    "static/media/textandico.png": "/static/media/textandico.48abfd71c1bc66b5f96b.png",
+    "static/media/logo.jpeg": "/static/media/logo.fa66a5a394f7a3b9b652.jpeg",
+    "static/media/capabilities.png": "/static/media/capabilities.08a427449cf6256a8133.png",
+    "index.html": "/index.html",
+    "main.a4df0b90.css.map": "/static/css/main.a4df0b90.css.map",
+    "main.ef1c3193.js.map": "/static/js/main.ef1c3193.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4df0b90.css",
+    "static/js/main.ef1c3193.js"
+  ]
+}
