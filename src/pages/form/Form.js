@@ -17,35 +17,58 @@ const Form = () => {
                 <source src={video} />
             </video>
             <div className='form_container'>
-                <div className='form_vid-s'>
-                    <img onClick={() => navigate('/')} alt="so hypnotizing" src={textandico} className="form_vid-s_logo" />
-                </div>
-                <div className='form_inputs-s'>
-                    <form className='form_inform'>
-                        <label type="text" className='form_label'>YOUR NAME</label>
-                        <br />
-                        <input placeholder='Full name' className='form_input' />
+                <form className='form_inform'>
+                    <p className='form_header'>Hello, So Hypnotizing</p>
+                    <div>
+                        <label type="text" className='form_label'>My name is</label>
+                        <input placeholder='Full name' className='form_input form_input-margin form_input-margin__mb' />
+                        <label type="text" className='form_label'>from</label>
+                        <input placeholder='Website or company name' className='form_input form_input-margin ' />
+                    </div>
+                    <br />
 
-                        <label type="text" className='form_label'>FROM</label>
-                        <br />
-                        <input placeholder='Website or company name' className='form_input' />
+                    <div className='discus_container'>
+                        <label type="text" className='form_label'>I would like to discus</label>
+                        <select className='form_discus_select'>
+                            <option className='form_sidcus_option'>software devolpment</option>
+                            <option className='form_sidcus_option'>software defv</option>
+                            <option className='form_sidcus_option'>software defv</option>
+                            <option className='form_sidcus_option'>software defv</option>
+                            <option className='form_sidcus_option'>software defv</option>
 
-                        <label type="text" className='form_label'>SUBJECT</label>
-                        <br />
-                        <input placeholder='What is your message about' className='form_input' />
+                        </select>
+                    </div>
+                    <br />
+                    <label type="text" className='form_label '>Project idea & design brief</label>
+                    <textarea rows="2" cols="20" maxLength='170' placeholder={`PITCH YOU PROJECT IDEA`} className='form_input form_msg-input' />
+                    <br />
+                    <div className='budget_container'>
+                        <label type="text" className='form_label '>The budget for that project is</label>
+                        <div className='form_budget'>
+                            <button type='button' className='form_budget-btns'>{`< $5k`}</button>
+                            <button type='button' className='form_budget-btns'>{` $10k ~ 20k`}</button>
+                            <button type='button' className='form_budget-btns'>{` $20k ~ 50k`}</button>
+                            <button type='button' className='form_budget-btns'>{` $50k ~ 200k`}</button>
 
-                        <label type="text" className='form_label '>YOUR MESSAGE</label>
-                        <br />
-                        <textarea rows="2" cols="20" maxLength='170' placeholder={`Let's get in touch`} className='form_input form_msg-input' />
-                        <br />
+                        </div>
+                    </div>
+                    <br />
+                    <div>
+                        <label type="text" className='form_label '>I learned about you company through</label>
+                        <input placeholder='' className='form_input form_input-margin' />
+                    </div>
+                    <br />
+                    <div className='contactme_container'>
+                        <label type="text" className='form_label '>Contact me back at</label>
+                        <input placeholder='YOUR EMAIL' className='form_input form_input-margin ' />
+                    </div>
+                    <br />
+                    <button type='button' className='form_button'> SUBMIT </button>
 
-                        <button type='button' className='form_button'> SEND <IoMdSend className='send-ico' /></button>
 
 
-                    </form>
-                </div>
+                </form>
             </div>
-
         </div>
     )
 }
