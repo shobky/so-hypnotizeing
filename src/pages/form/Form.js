@@ -59,11 +59,13 @@ const Form = () => {
                     </div>
                     <br />
                     <div className='contactme_container'>
-                        <label type="text" className='form_label '>Contact me back at</label>
-                        <input placeholder='YOUR EMAIL' className='form_input form_input-margin ' />
+                        <div>
+                            <label type="text" className='form_label '>Contact me back at</label>
+                            <input placeholder='YOUR EMAIL' className='form_input form_input-margin ' />
+                        </div>
+                        <button type='button' className='form_button'> SUBMIT </button>
                     </div>
                     <br />
-                    <button type='button' className='form_button'> SUBMIT </button>
 
 
 
