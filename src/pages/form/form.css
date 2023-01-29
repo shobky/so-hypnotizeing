@@ -1,3 +1,17 @@
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  /* Apply the animation to an element */
+  .spin {
+    animation: spin infinite 2s linear;
+  }
+
+  .done-ico{
+    font-size: 30px;
+  }
+
 @media (width > 800px) {
     .form_video {
         position: fixed;
@@ -25,7 +39,7 @@
     }
     
     .form_container {
-        width: 50vw;
+        width: 70vw;
         height: 90vh;
         box-sizing: border-box;
         background-color: #1C1C1C;
@@ -33,7 +47,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 5vh 25vw;
+        margin: 5vh 15vw;
         color: white;
         border-radius: 50px;
         padding: 20px 50px;
@@ -104,6 +118,7 @@
         width: 80px;
     }
     
+    
     .form_button:hover {
         cursor: pointer;
         opacity: .8;
@@ -121,6 +136,16 @@
         padding: 7px;
         font-size: 16px;
         -webkit-text-stroke: .4px black;
+    }
+    .form_budget-btns__active{
+        opacity: .9;
+        background-color: white;
+        border-radius: 25px;
+        padding: 7px;
+        font-size: 16px;
+        -webkit-text-stroke: .4px black;
+        outline: 2.5px solid #50BC5B;
+        border: none;
     }
     
     .form_budget-btns:hover {
@@ -192,7 +217,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 5vh 5vw ;
+        margin: 8vh 5vw 5vh 5vw ;
         color: white;
     }
     
@@ -230,6 +255,10 @@
     
     .form_input-margin__mb {
         margin-left: 10px;
+    }
+    .form_input-col{
+        display: flex;
+        flex-direction: column;
     }
     
     .form_msg-input {
@@ -272,6 +301,16 @@
         font-size: 12px;
     }
     
+    .form_budget-btns__active{
+        opacity: .9;
+        background-color: white;
+        border-radius: 25px;
+        padding: 7px;
+        font-size: 12px;
+        outline: 2.5px solid #50BC5B;
+        border: none;
+    }
+
     .form_budget-btns:hover {
         cursor: pointer;
         opacity: .84;
