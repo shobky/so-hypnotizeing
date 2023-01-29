@@ -14,7 +14,7 @@ const Routers = () => {
     return (
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/contact' element={<ReadForm />} />
+            <Route path='/contact' element={<Form />} />
             <Route path={`/jkfdslAdjkfl`} element={<ReadForm />} />
         </Routes>
     )
