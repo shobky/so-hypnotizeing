@@ -1,16 +1,21 @@
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-  
-  /* Apply the animation to an element */
-  .spin {
-    animation: spin infinite 2s linear;
-  }
+    from {
+        transform: rotate(0deg);
+    }
 
-  .done-ico{
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply the animation to an element */
+.spin {
+    animation: spin infinite 2s linear;
+}
+
+.done-ico {
     font-size: 30px;
-  }
+}
 
 @media (width > 800px) {
     .form_video {
@@ -20,14 +25,14 @@
         left: 0;
         display: none;
     }
-    
+
     .form {
         background-color: black;
         height: 100vh;
         position: absolute;
         top: 0;
     }
-    
+
     .form_back-ico {
         position: fixed;
         left: 50px;
@@ -35,9 +40,9 @@
         font-size: 30px;
         color: white;
         mix-blend-mode: difference;
-    
+
     }
-    
+
     .form_container {
         width: 70vw;
         height: 90vh;
@@ -53,7 +58,7 @@
         padding: 20px 50px;
         box-shadow: 0 0 10px 1px rgba(92, 91, 91, 0.355);
     }
-    
+
     .form_inform {
         display: flex;
         flex-direction: column;
@@ -61,7 +66,7 @@
         font-family: SUISREG;
         gap: 2px;
     }
-    
+
     .form_input {
         background-color: transparent;
         border: none;
@@ -70,37 +75,38 @@
         font-size: 16px;
         color: white;
     }
-    
+
     .form_input:focus {
         outline: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.868);
-    
+
     }
-    
+
     .form_label {
         font-size: 16px;
     }
-    
+
     .form_header {
         margin-bottom: 25px;
         font-size: 18px;
     }
-    
+
     .form_input-margin {
         margin-left: 10px;
     }
-    
+
     .form_msg-input {
         resize: none;
         height: 70px;
     }
-    .contactme_container{
+
+    .contactme_container {
         display: flex;
         align-items: center;
         gap: 25px;
         justify-content: space-between;
     }
-    
+
     .form_button {
         background-color: #50BC5B;
         padding: 15px 10px;
@@ -117,18 +123,18 @@
         height: 80px;
         width: 80px;
     }
-    
-    
+
+
     .form_button:hover {
         cursor: pointer;
         opacity: .8;
     }
-    
+
     .form_budget {
         display: flex;
         gap: 10px;
     }
-    
+
     .form_budget-btns {
         border: none;
         background-color: white;
@@ -137,7 +143,8 @@
         font-size: 16px;
         -webkit-text-stroke: .4px black;
     }
-    .form_budget-btns__active{
+
+    .form_budget-btns__active {
         opacity: .9;
         background-color: white;
         border-radius: 25px;
@@ -147,24 +154,24 @@
         outline: 2.5px solid #50BC5B;
         border: none;
     }
-    
+
     .form_budget-btns:hover {
         cursor: pointer;
         opacity: .84;
     }
-    
+
     .budget_container {
         display: flex;
         align-items: center;
         gap: 25px;
     }
-    
+
     .discus_container {
         display: flex;
         gap: 25px;
         align-items: center;
     }
-    
+
     .form_discus_select {
         padding: 7px;
         font-size: 16px;
@@ -174,14 +181,15 @@
         background-color: #1C1C1C;
         color: white;
         border: 1px solid rgba(255, 255, 255, 0.318);
-    
+
     }
-    
+
     .form_discus_select {}
-    
+
     .form_sidcus_option {}
-    
+
 }
+
 @media (width < 800px) {
     .form_video {
         position: fixed;
@@ -190,15 +198,15 @@
         left: 0;
         display: none;
     }
-    
+
     .form {
         background-color: #1C1C1C;
         height: 100vh;
         position: absolute;
         top: 0;
-      
+
     }
-    
+
     .form_back-ico {
         position: fixed;
         left: 20px;
@@ -206,9 +214,9 @@
         font-size: 30px;
         color: white;
         mix-blend-mode: difference;
-    
+
     }
-    
+
     .form_container {
         width: 90vw;
         height: 90vh;
@@ -217,10 +225,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 8vh 5vw 5vh 5vw ;
+        margin: 8vh 5vw 5vh 5vw;
         color: white;
     }
-    
+
     .form_inform {
         display: flex;
         flex-direction: column;
@@ -228,7 +236,7 @@
         font-family: SUISREG;
         gap: 2px;
     }
-    
+
     .form_input {
         background-color: transparent;
         border: none;
@@ -237,35 +245,36 @@
         font-size: 14px;
         color: white;
     }
-    
+
     .form_input:focus {
         outline: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.868);
-    
+
     }
-    
+
     .form_label {
         font-size: 14px;
     }
-    
+
     .form_header {
         margin-bottom: 25px;
         font-size: 14px;
     }
-    
+
     .form_input-margin__mb {
         margin-left: 10px;
     }
-    .form_input-col{
+
+    .form_input-col {
         display: flex;
         flex-direction: column;
     }
-    
+
     .form_msg-input {
         resize: none;
         height: 70px;
     }
-    
+
     .form_button {
         background-color: #50BC5B;
         padding: 15px 10px;
@@ -280,19 +289,19 @@
         margin-top: 15px;
         border-radius: 50px;
     }
-    
+
     .form_button:hover {
         cursor: pointer;
         opacity: .8;
     }
-    
+
     .form_budget {
         display: flex;
         gap: 10px;
         margin: 5px;
 
     }
-    
+
     .form_budget-btns {
         border: none;
         background-color: white;
@@ -300,8 +309,8 @@
         padding: 7px;
         font-size: 12px;
     }
-    
-    .form_budget-btns__active{
+
+    .form_budget-btns__active {
         opacity: .9;
         background-color: white;
         border-radius: 25px;
@@ -315,19 +324,19 @@
         cursor: pointer;
         opacity: .84;
     }
-    
+
     .budget_container {
         display: flex;
         flex-direction: column;
         gap: 5px;
     }
-    
+
     .discus_container {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    
+
     .form_discus_select {
         padding: 4px;
         font-size: 16px;
@@ -339,15 +348,30 @@
         outline: none;
         border: .5px solid rgba(255, 255, 255, 0.318);
         width: fit-content;
-    
+
     }
-    
-    .contactme_container{
+
+    .contactme_container {
         display: flex;
         flex-direction: column;
     }
+
     .form_discus_select {}
-    
+
     .form_sidcus_option {}
-    
+
+}
+
+.form_password-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.form_password-input{
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.235);
+    color: white;
 }

@@ -96,7 +96,8 @@ body::-webkit-scrollbar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30vh 5vw 0 5vw;
+        padding: 45vh 5vw 0 5vw;
+
         box-sizing: border-box;
         background-color: black;
 
@@ -130,14 +131,16 @@ body::-webkit-scrollbar {
         padding: 10vh 5vw 5vh 5vw;
         box-sizing: border-box;
     }
+
+
     .home_foot-txt {
         color: white;
         text-align: center;
         margin-top: 3vh;
         font-family: SUISREG;
-        font-size: 1.2rem;
-    }
-    
+        font-size: 5.5vw;
+    } 
+
 
 }
 
@@ -152,10 +155,12 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         padding: 45vh 6vw 0 6vw;
+        /* padding-top: 45vh; */
         box-sizing: border-box;
-    
-    
+
+
     }
+
     .home-c2-rs_img {
         width: 30%;
         margin: 25px 0;
@@ -207,16 +212,18 @@ body::-webkit-scrollbar {
         color: white;
         padding: 5vh 5vw 5vh 5vw;
         box-sizing: border-box;
-    
+
     }
+    
     .home_foot-txt {
         color: white;
         text-align: center;
         margin-top: 3vh;
         font-family: SUISREG;
-        font-size: 1.6rem;
+        font-size: 1.61vw;
+
     }
-    
+
 
 
 }
