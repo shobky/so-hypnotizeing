@@ -109,9 +109,6 @@ const Form = () => {
                         <button type='submit' className='form_button'> {form === 'SUBMIT' ? form : form === 'buffer' ? <ImSpinner8 className='spin' /> : <MdOutlineDone className='done-ico' />} </button>
                     </div>
                     <br />
-
-
-
                 </form>
             </div>
         </div>
